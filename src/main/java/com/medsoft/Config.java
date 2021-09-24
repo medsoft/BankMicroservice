@@ -15,4 +15,5 @@ public class Config {
         jerseyServlet.register(CompteRestJaxrs.class);
         return  jerseyServlet ;
     }
+
 }
