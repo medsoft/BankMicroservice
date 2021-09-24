@@ -12,7 +12,7 @@ import java.util.List;
 //path annotation utilise losqu'il s'agit de jersey cad jaxrs pour l'utiliser en tant que composant spring on rajoute @component
 //This api is gonna use jersey servlet instead of diapatcher servlet
 // this api use Jaxrs as specification and jersey implementation
-@RestController
+//@RestController
 @RequestMapping("/banque")
 public class CompteRestController {
     @Autowired
