@@ -9,11 +9,10 @@ import org.springframework.context.annotation.Configuration;
 //to deploy jersey we gonna use this configuration file
 @Configuration
 public class Config {
-    @Bean
+    //@Bean
     public ResourceConfig resourceConfig (){
         ResourceConfig jerseyServlet = new ResourceConfig() ;
         jerseyServlet.register(CompteRestJaxrs.class);
         return  jerseyServlet ;
     }
-
 }
